@@ -3,14 +3,14 @@ package TravelFxConvert.Model;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleDirectedWeightedGraph;
 
-public class FxDAG extends SimpleDirectedWeightedGraph<String, DefaultWeightedEdge>{
+public class FxDAG extends SimpleDirectedWeightedGraph<String, FXDefaultWeightedEdge>{
 	private final double threshold=0.00000000000001;
 	public FxDAG(){
-		super(DefaultWeightedEdge.class);
+		super(FXDefaultWeightedEdge.class);
 	}
 	
 	public double setFxQuote(String ccy1, String ccy2, double rate){
-		DefaultWeightedEdge  ed=null;
+		FXDefaultWeightedEdge  ed=null;
 		if(rate<threshold){
 			rate=threshold;
 		}
@@ -46,4 +46,15 @@ public class FxDAG extends SimpleDirectedWeightedGraph<String, DefaultWeightedEd
 		
 		return ok;
 	}
+	
+	public double getFxRate(String ccy1, String ccy2){
+		double d=1;
+		
+		
+		return d;
+	}
+	
+	
 }
+
+

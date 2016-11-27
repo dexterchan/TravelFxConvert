@@ -2,13 +2,15 @@ package TravelFxConvert.TravelFxConvertCore;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.Set;
 
 import org.jgrapht.alg.DijkstraShortestPath;
-import org.jgrapht.graph.DefaultWeightedEdge;
+import org.jgrapht.graph.DefaultEdge;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import TravelFxConvert.Model.FXDefaultWeightedEdge;
 import TravelFxConvert.Model.FXQuote;
 import TravelFxConvert.Model.FxDAG;
 import junit.framework.Test;
@@ -55,16 +57,28 @@ public class AppTest
         	FxDAG d = new FxDAG();
         	d.updateFxRate(q);
         	
+        	DefaultEdge e;
         	
-        	List path =   DijkstraShortestPath.findPathBetween(d, "EUR","JPY");
+        	List<FXDefaultWeightedEdge> path =   DijkstraShortestPath.findPathBetween(d, "EUR","AUD");
+        	double qFxRate=0.0;
+        	ListIterator i = path.listIterator();
+
+        	while(i.hasNext()){
+        		FXDefaultWeightedEdge w = (FXDefaultWeightedEdge)i.next();
+        		qFxRate += w.getWeight();
+        	}
         	path.forEach( (v) -> 
         	{
-        		DefaultWeightedEdge w = (DefaultWeightedEdge)v;
-        		System.out.println(w + "\n");
+        		FXDefaultWeightedEdge w = (FXDefaultWeightedEdge)v;
+        		System.out.println(w + ":" + Math.pow(Math.E,w.getWeight())+ "\n");
         	}
         	);
+        	System.out.println("EUR/JPY:"+Math.pow(Math.E, qFxRate));
         	
+        }catch(IllegalArgumentException ee){
+        	throw ee;
         }catch(Exception e){
+        	
         	e.printStackTrace();
         }
         assertTrue( true );

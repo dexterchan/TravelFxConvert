@@ -25,14 +25,20 @@ public class TestRunner {
 		suite.addTestSuite(TestRemoteFxQuoteThread.class);
 	      TestResult result2 = new TestResult();
 	      suite.run(result2);
-	      System.out.println(result2.failureCount());
+	      System.out.println("failure count:"+result2.failureCount());
 	      Enumeration e = result2.failures();
 	      while(e.hasMoreElements()){
 	    	 // Failure failure = (Failure)result2.failures().nextElement();
 	    	  System.out.println(e.nextElement());
 	    	  
 	      }
-	     
+	      System.out.println ("error count:"+result2.errorCount());
+	      Enumeration ee = result2.errors();
+	      while(ee.hasMoreElements()){
+	    	 // Failure failure = (Failure)result2.failures().nextElement();
+	    	  System.out.println(ee.nextElement());
+	    	  
+	      }
 	      System.out.println("Number of test cases = " + result2.runCount());
 	      System.out.println(result2.wasSuccessful());
 	      
