@@ -6,12 +6,18 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import TravelFxConvert.Daemon.FxRateUpdaterThread;
 import TravelFxConvert.Model.FXRateContainer;
+import TravelFxConvert.Model.FxDAG;
+import TravelFxConvert.TravelFxConvertRestful.Model.FxQuotePair;
 import TravelFxConvert.TravelFxConvertRestful.hello.Greeting;
 
 @RestController
@@ -34,4 +40,17 @@ public class FxRestfulController {
 		
         return result;
     }
+	
+	@RequestMapping(value="/quotefxpair", method = RequestMethod.POST)
+    public ResponseEntity <  Double > quoteFxPair(@RequestBody  FxQuotePair fxPair) {
+		double d = 0;
+		log.info("Request Quote "+fxPair.ccy1+"/"+fxPair.ccy2);
+		FxDAG fxDAG = FXRateContainer.getFxDAG();
+		
+		d = fxDAG.getFxRate(fxPair.ccy1, fxPair.ccy2);
+		
+		
+		return new ResponseEntity<Double> (d,HttpStatus.OK);
+    }
+	
 }

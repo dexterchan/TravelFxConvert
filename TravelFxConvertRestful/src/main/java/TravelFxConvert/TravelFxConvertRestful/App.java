@@ -9,7 +9,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import TravelFxConvert.Daemon.FxRateUpdaterThread;
-import TravelFxConvert.Model.FxDAG;
 
 /**
  * Hello world!
@@ -24,18 +23,19 @@ public class App
 {
 	final static Logger logger = LogManager.getLogger(App.class);
 	//private static final Logger logger= Logger.getLogger(App.class);
-    public static void main( String[] args )
+    public static void main( String[] args ) throws Exception
 	{
 //    	if(logger.isDebugEnabled()){
 //			logger.debug("This is debug");
 //		}
-    	FxDAG f = new FxDAG();
+
 		ApplicationContext context = new ClassPathXmlApplicationContext("SpringBeanConfig.xml");
 		ThreadPoolTaskExecutor taskExecutor = (ThreadPoolTaskExecutor) context.getBean("taskExecutor");
 		
 		FxRateUpdaterThread Fxtask = (FxRateUpdaterThread) context.getBean("ApiLayerFxUpdateThread");
 
 		taskExecutor.execute(Fxtask);
+		//Thread.currentThread().sleep(5000);
 		SpringApplication.run(App.class, args);
 	}
 }

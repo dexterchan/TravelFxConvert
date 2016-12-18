@@ -1,616 +1,252 @@
-27/Nov/2016 13:17:53,057- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c1e2a9e: startup date [Sun Nov 27 13:17:53 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:17:53,113- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:17:53,219- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:17:53,868- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:17:53,882- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:17:54,474- FxRateUpdaterThread: timestamp:Sun Nov 27 13:17:54 HKT 2016
+18/Dec/2016 17:17:18,542- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fbe4146: startup date [Sun Dec 18 17:17:18 HKT 2016]; root of context hierarchy
+18/Dec/2016 17:17:18,688- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 17:17:54,709- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4b41e4dd: startup date [Sun Dec 18 17:17:54 HKT 2016]; root of context hierarchy
+18/Dec/2016 17:17:54,807- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 17:18:50,587- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4b41e4dd: startup date [Sun Dec 18 17:18:50 HKT 2016]; root of context hierarchy
+18/Dec/2016 17:18:50,659- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 17:20:16,301- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@54dcfa5a: startup date [Sun Dec 18 17:20:16 HKT 2016]; root of context hierarchy
+18/Dec/2016 17:20:16,369- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 17:21:45,875- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4b41e4dd: startup date [Sun Dec 18 17:21:45 HKT 2016]; root of context hierarchy
+18/Dec/2016 17:21:45,934- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 17:39:35,170- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@63475ace: startup date [Sun Dec 18 17:39:35 HKT 2016]; root of context hierarchy
+18/Dec/2016 17:39:35,222- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 18:01:19,251- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@34cdeda2: startup date [Sun Dec 18 18:01:19 HKT 2016]; root of context hierarchy
+18/Dec/2016 18:01:19,331- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+18/Dec/2016 18:01:19,440- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 18:01:20,193- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+18/Dec/2016 18:01:20,219- FxRateUpdaterThread: Running refresh
+18/Dec/2016 18:01:20,782- FxRateUpdaterThread: timestamp:Sun Dec 18 18:01:20 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
+USDAUD:1.367204
+USDJPY:117.839996
+USDGBP:0.80074
+USDNZD:1.436039
+USDTHB:35.830002
+USDSGD:1.44442
+USDTWD:31.995001
+USDCAD:1.333041
+USDCHF:1.025504
+USDMYR:4.475504
+USDHKD:7.764904
+USDCNY:6.956904
+USDEUR:0.956604
+USDKRW:1185.069946
+USDINR:67.845001
 
-27/Nov/2016 13:19:09,220- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f05be7f: startup date [Sun Nov 27 13:19:09 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:19:09,303- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:19:09,447- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:19:10,364- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:19:10,385- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:19:11,044- FxRateUpdaterThread: timestamp:Sun Nov 27 13:19:11 HKT 2016
+18/Dec/2016 18:02:29,289- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@34cdeda2: startup date [Sun Dec 18 18:02:29 HKT 2016]; root of context hierarchy
+18/Dec/2016 18:02:29,365- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+18/Dec/2016 18:02:29,502- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 18:02:30,361- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+18/Dec/2016 18:02:30,393- FxRateUpdaterThread: Running refresh
+18/Dec/2016 18:02:30,922- FxRateUpdaterThread: timestamp:Sun Dec 18 18:02:30 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
+USDAUD:1.367204
+USDJPY:117.839996
+USDGBP:0.80074
+USDNZD:1.436039
+USDTHB:35.830002
+USDSGD:1.44442
+USDTWD:31.995001
+USDCAD:1.333041
+USDCHF:1.025504
+USDMYR:4.475504
+USDHKD:7.764904
+USDCNY:6.956904
+USDEUR:0.956604
+USDKRW:1185.069946
+USDINR:67.845001
 
-27/Nov/2016 13:21:50,608- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c1e2a9e: startup date [Sun Nov 27 13:21:50 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:21:50,683- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:21:50,794- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:21:51,468- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:21:51,480- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:21:51,912- FxRateUpdaterThread: timestamp:Sun Nov 27 13:21:51 HKT 2016
+18/Dec/2016 18:03:41,061- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@63475ace: startup date [Sun Dec 18 18:03:41 HKT 2016]; root of context hierarchy
+18/Dec/2016 18:03:41,120- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+18/Dec/2016 18:03:41,270- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 18:03:42,025- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+18/Dec/2016 18:03:42,062- FxRateUpdaterThread: Running refresh
+18/Dec/2016 18:03:42,573- FxRateUpdaterThread: timestamp:Sun Dec 18 18:03:42 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
+USDAUD:1.367204
+USDJPY:117.839996
+USDGBP:0.80074
+USDNZD:1.436039
+USDTHB:35.830002
+USDSGD:1.44442
+USDTWD:31.995001
+USDCAD:1.333041
+USDCHF:1.025504
+USDMYR:4.475504
+USDHKD:7.764904
+USDCNY:6.956904
+USDEUR:0.956604
+USDKRW:1185.069946
+USDINR:67.845001
 
-27/Nov/2016 13:21:52,480- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:22:24,479- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f05be7f: startup date [Sun Nov 27 13:22:24 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:22:24,571- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:22:24,693- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:22:25,625- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:22:25,655- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:22:26,304- FxRateUpdaterThread: timestamp:Sun Nov 27 13:22:26 HKT 2016
+18/Dec/2016 18:04:37,739- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@34cdeda2: startup date [Sun Dec 18 18:04:37 HKT 2016]; root of context hierarchy
+18/Dec/2016 18:04:37,804- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+18/Dec/2016 18:04:37,919- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 18:04:38,649- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+18/Dec/2016 18:04:38,686- FxRateUpdaterThread: Running refresh
+18/Dec/2016 18:04:39,211- FxRateUpdaterThread: timestamp:Sun Dec 18 18:04:39 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
+USDAUD:1.367204
+USDJPY:117.839996
+USDGBP:0.80074
+USDNZD:1.436039
+USDTHB:35.830002
+USDSGD:1.44442
+USDTWD:31.995001
+USDCAD:1.333041
+USDCHF:1.025504
+USDMYR:4.475504
+USDHKD:7.764904
+USDCNY:6.956904
+USDEUR:0.956604
+USDKRW:1185.069946
+USDINR:67.845001
 
-27/Nov/2016 13:22:31,721- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:28:34,857- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c1e2a9e: startup date [Sun Nov 27 13:28:34 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:28:34,915- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:28:35,051- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:28:35,837- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:28:35,860- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:28:36,312- FxRateUpdaterThread: timestamp:Sun Nov 27 13:28:36 HKT 2016
+18/Dec/2016 18:36:08,233- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@34cdeda2: startup date [Sun Dec 18 18:36:08 HKT 2016]; root of context hierarchy
+18/Dec/2016 18:36:08,380- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+18/Dec/2016 18:36:08,527- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 18:36:09,749- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+18/Dec/2016 18:36:09,783- FxRateUpdaterThread: Running refresh
+18/Dec/2016 18:36:10,367- FxRateUpdaterThread: timestamp:Sun Dec 18 18:36:10 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
+USDAUD:1.367204
+USDJPY:117.839996
+USDGBP:0.80074
+USDNZD:1.436039
+USDTHB:35.830002
+USDSGD:1.44442
+USDTWD:31.995001
+USDCAD:1.333041
+USDCHF:1.025504
+USDMYR:4.475504
+USDHKD:7.764904
+USDCNY:6.956904
+USDEUR:0.956604
+USDKRW:1185.069946
+USDINR:67.845001
 
-27/Nov/2016 13:28:36,861- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:32:44,986- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7c1e2a9e: startup date [Sun Nov 27 13:32:44 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:32:45,050- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:32:45,152- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:32:45,770- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:32:45,786- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:32:46,255- FxRateUpdaterThread: timestamp:Sun Nov 27 13:32:46 HKT 2016
+18/Dec/2016 18:39:29,787- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@707194ba: startup date [Sun Dec 18 18:39:29 HKT 2016]; root of context hierarchy
+18/Dec/2016 18:39:29,892- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+18/Dec/2016 18:39:30,016- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 18:39:30,962- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+18/Dec/2016 18:39:30,982- FxRateUpdaterThread: Running refresh
+18/Dec/2016 18:39:31,550- FxRateUpdaterThread: timestamp:Sun Dec 18 18:39:31 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
+USDAUD:1.367204
+USDJPY:117.839996
+USDGBP:0.80074
+USDNZD:1.436039
+USDTHB:35.830002
+USDSGD:1.44442
+USDTWD:31.995001
+USDCAD:1.333041
+USDCHF:1.025504
+USDMYR:4.475504
+USDHKD:7.764904
+USDCNY:6.956904
+USDEUR:0.956604
+USDKRW:1185.069946
+USDINR:67.845001
 
-27/Nov/2016 13:32:46,788- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:42:20,516- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b0090a4: startup date [Sun Nov 27 13:42:20 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:42:20,588- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:42:20,694- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:42:21,397- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:42:21,410- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:42:21,979- FxRateUpdaterThread: timestamp:Sun Nov 27 13:42:21 HKT 2016
+18/Dec/2016 18:39:57,733- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4535b6d5: startup date [Sun Dec 18 18:39:57 HKT 2016]; root of context hierarchy
+18/Dec/2016 18:39:57,815- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+18/Dec/2016 18:39:57,947- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 18:39:58,900- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+18/Dec/2016 18:39:58,930- FxRateUpdaterThread: Running refresh
+18/Dec/2016 18:39:59,427- FxRateUpdaterThread: timestamp:Sun Dec 18 18:39:59 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
+USDAUD:1.367204
+USDJPY:117.839996
+USDGBP:0.80074
+USDNZD:1.436039
+USDTHB:35.830002
+USDSGD:1.44442
+USDTWD:31.995001
+USDCAD:1.333041
+USDCHF:1.025504
+USDMYR:4.475504
+USDHKD:7.764904
+USDCNY:6.956904
+USDEUR:0.956604
+USDKRW:1185.069946
+USDINR:67.845001
 
-27/Nov/2016 13:42:22,409- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:49:07,637- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b0090a4: startup date [Sun Nov 27 13:49:07 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:49:07,734- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:49:07,846- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:49:08,604- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:49:08,632- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:49:09,093- FxRateUpdaterThread: timestamp:Sun Nov 27 13:49:09 HKT 2016
+18/Dec/2016 18:56:19,030- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4535b6d5: startup date [Sun Dec 18 18:56:19 HKT 2016]; root of context hierarchy
+18/Dec/2016 18:56:19,154- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+18/Dec/2016 18:56:19,286- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 18:56:20,452- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+18/Dec/2016 18:56:20,490- FxRateUpdaterThread: Running refresh
+18/Dec/2016 18:56:21,234- FxRateUpdaterThread: timestamp:Sun Dec 18 18:56:21 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
+USDAUD:1.367204
+USDJPY:117.839996
+USDGBP:0.80074
+USDNZD:1.436039
+USDTHB:35.830002
+USDSGD:1.44442
+USDTWD:31.995001
+USDCAD:1.333041
+USDCHF:1.025504
+USDMYR:4.475504
+USDHKD:7.764904
+USDCNY:6.956904
+USDEUR:0.956604
+USDKRW:1185.069946
+USDINR:67.845001
 
-27/Nov/2016 13:49:09,637- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:49:39,240- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@253d9f73: startup date [Sun Nov 27 13:49:39 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:49:39,334- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:49:39,448- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:49:40,324- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:49:40,345- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:49:40,881- FxRateUpdaterThread: timestamp:Sun Nov 27 13:49:40 HKT 2016
+18/Dec/2016 18:58:20,907- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4535b6d5: startup date [Sun Dec 18 18:58:20 HKT 2016]; root of context hierarchy
+18/Dec/2016 18:58:21,005- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+18/Dec/2016 18:58:21,118- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 18:58:22,009- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+18/Dec/2016 18:58:22,035- FxRateUpdaterThread: Running refresh
+18/Dec/2016 18:58:22,528- FxRateUpdaterThread: timestamp:Sun Dec 18 18:58:22 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
+USDAUD:1.367204
+USDJPY:117.839996
+USDGBP:0.80074
+USDNZD:1.436039
+USDTHB:35.830002
+USDSGD:1.44442
+USDTWD:31.995001
+USDCAD:1.333041
+USDCHF:1.025504
+USDMYR:4.475504
+USDHKD:7.764904
+USDCNY:6.956904
+USDEUR:0.956604
+USDKRW:1185.069946
+USDINR:67.845001
 
-27/Nov/2016 13:49:48,523- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:51:26,078- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@253d9f73: startup date [Sun Nov 27 13:51:26 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:51:26,170- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:51:26,309- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:51:27,295- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:51:27,320- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:51:27,859- FxRateUpdaterThread: timestamp:Sun Nov 27 13:51:27 HKT 2016
+18/Dec/2016 19:05:48,084- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4535b6d5: startup date [Sun Dec 18 19:05:48 HKT 2016]; root of context hierarchy
+18/Dec/2016 19:05:48,236- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+18/Dec/2016 19:05:48,454- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+18/Dec/2016 19:05:49,969- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+18/Dec/2016 19:05:50,034- FxRateUpdaterThread: Running refresh
+18/Dec/2016 19:05:50,742- FxRateUpdaterThread: timestamp:Sun Dec 18 19:05:50 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
+USDAUD:1.367204
+USDJPY:117.839996
+USDGBP:0.80074
+USDNZD:1.436039
+USDTHB:35.830002
+USDSGD:1.44442
+USDTWD:31.995001
+USDCAD:1.333041
+USDCHF:1.025504
+USDMYR:4.475504
+USDHKD:7.764904
+USDCNY:6.956904
+USDEUR:0.956604
+USDKRW:1185.069946
+USDINR:67.845001
 
-27/Nov/2016 13:51:28,322- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:52:39,595- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b0090a4: startup date [Sun Nov 27 13:52:39 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:52:39,664- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:52:39,769- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:52:40,481- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:52:40,497- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:52:40,969- FxRateUpdaterThread: timestamp:Sun Nov 27 13:52:40 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 13:52:41,500- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:54:37,541- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b0090a4: startup date [Sun Nov 27 13:54:37 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:54:37,621- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:54:37,732- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:54:38,448- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:54:38,467- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:54:38,908- FxRateUpdaterThread: timestamp:Sun Nov 27 13:54:38 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 13:54:39,469- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:55:10,129- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@253d9f73: startup date [Sun Nov 27 13:55:10 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:55:10,229- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:55:10,356- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:55:11,215- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:55:11,241- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:55:11,761- FxRateUpdaterThread: timestamp:Sun Nov 27 13:55:11 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 13:55:12,327- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:56:30,474- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@253d9f73: startup date [Sun Nov 27 13:56:30 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:56:30,565- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:56:30,683- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:56:31,592- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:56:31,619- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:56:32,124- FxRateUpdaterThread: timestamp:Sun Nov 27 13:56:32 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 13:56:32,626- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 13:57:22,605- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fa121e2: startup date [Sun Nov 27 13:57:22 HKT 2016]; root of context hierarchy
-27/Nov/2016 13:57:22,676- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 13:57:22,781- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 13:57:23,484- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 13:57:23,503- FxRateUpdaterThread: Running refresh
-27/Nov/2016 13:57:24,119- FxRateUpdaterThread: timestamp:Sun Nov 27 13:57:24 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 13:57:24,502- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 15:51:27,832- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ed3ccb2: startup date [Sun Nov 27 15:51:27 HKT 2016]; root of context hierarchy
-27/Nov/2016 15:51:27,916- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 15:51:29,235- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25bfcafd: startup date [Sun Nov 27 15:51:29 HKT 2016]; root of context hierarchy
-27/Nov/2016 15:51:29,236- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 15:51:29,295- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 15:51:29,381- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 15:51:29,399- FxRateUpdaterThread: Running refresh
-27/Nov/2016 15:51:29,567- FxRateUpdaterThread: timestamp:Sun Nov 27 15:51:29 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 15:51:30,403- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 15:52:02,413- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ed3ccb2: startup date [Sun Nov 27 15:52:02 HKT 2016]; root of context hierarchy
-27/Nov/2016 15:52:02,493- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 15:52:03,708- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25bfcafd: startup date [Sun Nov 27 15:52:03 HKT 2016]; root of context hierarchy
-27/Nov/2016 15:52:03,709- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 15:52:03,762- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 15:52:03,836- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 15:52:03,856- FxRateUpdaterThread: Running refresh
-27/Nov/2016 15:52:04,027- FxRateUpdaterThread: timestamp:Sun Nov 27 15:52:04 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 15:52:04,860- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 19:57:57,297- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ed3ccb2: startup date [Sun Nov 27 19:57:57 HKT 2016]; root of context hierarchy
-27/Nov/2016 19:57:57,371- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 19:57:58,529- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25bfcafd: startup date [Sun Nov 27 19:57:58 HKT 2016]; root of context hierarchy
-27/Nov/2016 19:57:58,531- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 19:57:58,613- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 19:57:58,673- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 19:57:58,689- FxRateUpdaterThread: Running refresh
-27/Nov/2016 19:57:58,869- FxRateUpdaterThread: timestamp:Sun Nov 27 19:57:58 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 19:57:59,691- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 20:04:54,114- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c9754d8: startup date [Sun Nov 27 20:04:54 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:04:54,182- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:04:55,388- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4b6690c0: startup date [Sun Nov 27 20:04:55 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:04:55,389- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 20:04:55,455- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:04:55,542- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 20:04:55,583- FxRateUpdaterThread: Running refresh
-27/Nov/2016 20:04:55,773- FxRateUpdaterThread: timestamp:Sun Nov 27 20:04:55 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 20:04:56,635- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 20:10:39,190- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c9754d8: startup date [Sun Nov 27 20:10:39 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:10:39,263- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:10:40,662- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2eee3069: startup date [Sun Nov 27 20:10:40 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:10:40,663- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 20:10:40,753- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:10:40,838- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 20:10:40,853- FxRateUpdaterThread: Running refresh
-27/Nov/2016 20:10:41,032- FxRateUpdaterThread: timestamp:Sun Nov 27 20:10:41 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 20:10:41,854- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 20:12:59,584- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c9754d8: startup date [Sun Nov 27 20:12:59 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:12:59,692- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:13:00,969- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2da59753: startup date [Sun Nov 27 20:13:00 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:13:00,970- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 20:13:01,010- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:13:01,083- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 20:13:01,094- FxRateUpdaterThread: Running refresh
-27/Nov/2016 20:13:01,279- FxRateUpdaterThread: timestamp:Sun Nov 27 20:13:01 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 20:13:02,095- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 20:13:35,646- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@63798ca7: startup date [Sun Nov 27 20:13:35 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:13:35,737- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:13:44,982- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67e28be3: startup date [Sun Nov 27 20:13:44 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:13:44,985- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 20:13:45,047- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:13:45,192- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 20:13:45,210- FxRateUpdaterThread: Running refresh
-27/Nov/2016 20:13:45,539- FxRateUpdaterThread: timestamp:Sun Nov 27 20:13:45 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 20:13:46,215- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 20:15:21,046- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c9754d8: startup date [Sun Nov 27 20:15:21 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:15:21,114- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:15:22,344- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2da59753: startup date [Sun Nov 27 20:15:22 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:15:22,346- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 20:15:22,403- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:15:22,497- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 20:15:22,517- FxRateUpdaterThread: Running refresh
-27/Nov/2016 20:15:22,699- FxRateUpdaterThread: timestamp:Sun Nov 27 20:15:22 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 20:15:23,518- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'
-27/Nov/2016 20:16:12,718- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c9754d8: startup date [Sun Nov 27 20:16:12 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:16:12,796- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:16:14,107- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2da59753: startup date [Sun Nov 27 20:16:14 HKT 2016]; root of context hierarchy
-27/Nov/2016 20:16:14,109- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-27/Nov/2016 20:16:14,161- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-27/Nov/2016 20:16:14,231- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-27/Nov/2016 20:16:14,242- FxRateUpdaterThread: Running refresh
-27/Nov/2016 20:16:14,496- FxRateUpdaterThread: timestamp:Sun Nov 27 20:16:14 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.342104
-USDJPY:113.228996
-USDGBP:0.80094
-USDNZD:1.419304
-USDTHB:35.619999
-USDSGD:1.42757
-USDTWD:31.825001
-USDCAD:1.35155
-USDCHF:1.012904
-USDMYR:4.446504
-USDHKD:7.75604
-USDCNY:6.912904
-USDEUR:0.943804
-USDKRW:1177.00035
-USDINR:68.489998
-
-27/Nov/2016 20:16:15,247- ThreadPoolTaskExecutor: Shutting down ExecutorService 'taskExecutor'

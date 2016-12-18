@@ -10,7 +10,7 @@ import TravelFxConvert.Controller.FxRateRefresherInterface;
 
 public class FXRateContainer {
 	static volatile ConcurrentHashMap<String, Double> fxMap=null;
-	
+	static volatile FxDAG fxGraph=null;
 	
 	public static  ConcurrentHashMap<String, Double> getExtFxRresher(){
 		if(fxMap==null){
@@ -22,4 +22,16 @@ public class FXRateContainer {
 		}
 		return fxMap;
 	}
+	
+	public static FxDAG getFxDAG(){
+		if(fxGraph==null){
+			synchronized(ExternalFxRefresherFactory.class){
+				if(fxGraph==null){
+					fxGraph= new FxDAG();
+				}
+			}
+		}
+		return fxGraph;
+	}
+	
 }

@@ -1,5 +1,6 @@
 package TravelFxConvert.Daemon;
 
+import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
@@ -10,6 +11,7 @@ import org.apache.logging.log4j.Logger;
 import TravelFxConvert.Controller.FxRateRefresherInterface;
 import TravelFxConvert.Model.FXQuote;
 import TravelFxConvert.Model.FXRateContainer;
+import TravelFxConvert.Model.FxDAG;
 
 public class FxRateUpdaterThread implements Runnable 
 {
@@ -55,10 +57,15 @@ public class FxRateUpdaterThread implements Runnable
 			while(alive){
 				log.info("Running refresh");
 				ConcurrentHashMap<String, Double>  fxContainer=FXRateContainer.getExtFxRresher();
+				
+				
 				FXQuote q=refreshInterface.getFx(ccySet, null);
 				log.info(q.toString());
 				q.quote.forEach( (key,value) -> fxContainer.put(key, value) );
 				
+				FxDAG d = FXRateContainer.getFxDAG();
+	        	d.updateFxRate(q);
+		        	
 				Thread.currentThread().sleep(milliSecond_period);
 			}
 		}catch (Exception e){
