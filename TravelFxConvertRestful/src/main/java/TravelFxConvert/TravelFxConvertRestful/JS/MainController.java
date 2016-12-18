@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class MainController {
 
-    @RequestMapping(value="/angularjs",method = RequestMethod.GET)
+    @RequestMapping(value="/",method = RequestMethod.GET)
     public String homepage(){
         return "indexangularjs.html";
     }
