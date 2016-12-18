@@ -1,0 +1,56 @@
+27/Nov/2016 12:17:19,545- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3bf7ca37: startup date [Sun Nov 27 12:17:19 HKT 2016]; root of context hierarchy
+27/Nov/2016 12:17:19,642- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+27/Nov/2016 12:17:19,813- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+27/Nov/2016 12:17:20,916- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+27/Nov/2016 12:17:20,954- FxRateUpdaterThread: Running refresh
+27/Nov/2016 12:17:21,650- App: Starting App on Dexters-Air with PID 1426 (/Users/dexter/TravelFxConvert/TravelFxConvertRestful/target/classes started by dexter in /Users/dexter/TravelFxConvert/TravelFxConvertRestful)
+27/Nov/2016 12:17:21,650- App: No active profile set, falling back to default profiles: default
+27/Nov/2016 12:17:21,733- FxRateUpdaterThread: timestamp:Sun Nov 27 12:17:21 HKT 2016
+BASECCY:USD
+Quote:
+USDAUD:1.342104
+USDJPY:113.228996
+USDGBP:0.80094
+USDNZD:1.419304
+USDTHB:35.619999
+USDSGD:1.42757
+USDTWD:31.825001
+USDCAD:1.35155
+USDCHF:1.012904
+USDMYR:4.446504
+USDHKD:7.75604
+USDCNY:6.912904
+USDEUR:0.943804
+USDKRW:1177.00035
+USDINR:68.489998
+
+27/Nov/2016 12:17:21,781- AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@278bb07e: startup date [Sun Nov 27 12:17:21 HKT 2016]; root of context hierarchy
+27/Nov/2016 12:17:21,841- Version: HV000001: Hibernate Validator 5.2.4.Final
+27/Nov/2016 12:17:24,203- TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8080 (http)
+27/Nov/2016 12:17:24,270- StandardService: Starting service Tomcat
+27/Nov/2016 12:17:24,272- StandardEngine: Starting Servlet Engine: Apache Tomcat/8.5.4
+27/Nov/2016 12:17:24,401- [/]: Initializing Spring embedded WebApplicationContext
+27/Nov/2016 12:17:24,401- ContextLoader: Root WebApplicationContext: initialization completed in 2620 ms
+27/Nov/2016 12:17:24,682- ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
+27/Nov/2016 12:17:24,688- FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
+27/Nov/2016 12:17:24,688- FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+27/Nov/2016 12:17:24,688- FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+27/Nov/2016 12:17:24,688- FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
+27/Nov/2016 12:17:25,195- RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@278bb07e: startup date [Sun Nov 27 12:17:21 HKT 2016]; root of context hierarchy
+27/Nov/2016 12:17:25,367- RequestMappingHandlerMapping: Mapped "{[/greeting2]}" onto public TravelFxConvert.TravelFxConvertRestful.hello.Greeting TravelFxConvert.TravelFxConvertRestful.FxRestfulController.greeting(java.lang.String)
+27/Nov/2016 12:17:25,373- RequestMappingHandlerMapping: Mapped "{[/allfx]}" onto public java.util.Map<java.lang.String, java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.allFxRates(java.lang.String)
+27/Nov/2016 12:17:25,381- RequestMappingHandlerMapping: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+27/Nov/2016 12:17:25,383- RequestMappingHandlerMapping: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+27/Nov/2016 12:17:25,444- SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27/Nov/2016 12:17:25,445- SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27/Nov/2016 12:17:25,539- SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+27/Nov/2016 12:17:25,799- AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+27/Nov/2016 12:17:25,834- Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+27/Nov/2016 12:17:25,847- Http11NioProtocol: Starting ProtocolHandler [http-nio-8080]
+27/Nov/2016 12:17:25,876- NioSelectorPool: Using a shared selector for servlet write/read
+27/Nov/2016 12:17:25,914- TomcatEmbeddedServletContainer: Tomcat started on port(s): 8080 (http)
+27/Nov/2016 12:17:25,924- App: Started App in 4.848 seconds (JVM running for 8.81)
+27/Nov/2016 12:17:48,738- [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+27/Nov/2016 12:17:48,738- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
+27/Nov/2016 12:17:48,766- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+27/Nov/2016 12:17:53,286- FxRateUpdaterThread: AllFxRate called

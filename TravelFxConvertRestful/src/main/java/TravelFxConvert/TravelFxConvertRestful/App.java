@@ -16,6 +16,10 @@ import TravelFxConvert.Model.FxDAG;
  *
  */
 @SpringBootApplication
+//@ComponentScan("TravelFxConvert.AngularFront")
+//@Configuration
+//@EnableAutoConfiguration
+//@ComponentScan("TravelFxConvert.TravelFxConvertRestful")
 public class App 
 {
 	final static Logger logger = LogManager.getLogger(App.class);
