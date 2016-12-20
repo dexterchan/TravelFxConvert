@@ -10,7 +10,7 @@ public class MainController {
 
     @RequestMapping(value="/",method = RequestMethod.GET)
     public String homepage(){
-        return "indexangularjs.html";
+        return "indexFx.html";
     }
     @RequestMapping(value="/vue",method = RequestMethod.GET)
     public String homepageVue(){
