@@ -44,6 +44,9 @@
 					<!-- 
 					<button class="btn btn-primary" v-on:click="fetchEvents">refresh</button>
 					 -->
+					 <h3>
+						<span class="label label-info">{{quote.ccy1}}/{{quote.ccy2}}  {{message}}</span>
+						</h3>
 				</div>
 				<div class="panel-body">
 					
@@ -55,8 +58,10 @@
 						<input class="form-control" placeholder="Currency2"
 							v-model="quote.ccy2">
 						</div>
+						<p>
+						
 						<button class="btn btn-primary" v-on:click="quoteFX">Send</button>
-						<p>{{ message }}</p>
+						
 				</div>
 			</div>
 		</div>

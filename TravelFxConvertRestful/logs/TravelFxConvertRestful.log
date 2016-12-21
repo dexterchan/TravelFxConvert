@@ -1,187 +1,137 @@
-20/Dec/2016 21:49:20,147- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@33fe57a9: startup date [Tue Dec 20 21:49:20 HKT 2016]; root of context hierarchy
-20/Dec/2016 21:49:20,308- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-20/Dec/2016 21:49:20,538- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-20/Dec/2016 21:49:22,208- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-20/Dec/2016 21:49:22,231- FxRateUpdaterThread: Running refresh
-20/Dec/2016 21:49:22,847- App: Starting App on Dexters-Air with PID 656 (/Users/dexter/TravelFxConvert/TravelFxConvertRestful/target/classes started by dexter in /Users/dexter/TravelFxConvert/TravelFxConvertRestful)
-20/Dec/2016 21:49:22,847- App: No active profile set, falling back to default profiles: default
-20/Dec/2016 21:49:22,927- AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@221dad51: startup date [Tue Dec 20 21:49:22 HKT 2016]; root of context hierarchy
-20/Dec/2016 21:49:23,085- Version: HV000001: Hibernate Validator 5.2.4.Final
-20/Dec/2016 21:49:23,238- FxRateUpdaterThread: timestamp:Tue Dec 20 21:49:23 HKT 2016
+21/Dec/2016 22:45:03,439- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@33fe57a9: startup date [Wed Dec 21 22:45:03 HKT 2016]; root of context hierarchy
+21/Dec/2016 22:45:03,626- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+21/Dec/2016 22:45:03,888- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+21/Dec/2016 22:45:05,405- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+21/Dec/2016 22:45:05,424- FxRateUpdaterThread: Running refresh
+21/Dec/2016 22:45:06,132- App: Starting App on Dexters-Air with PID 600 (/Users/dexter/TravelFxConvert/TravelFxConvertRestful/target/classes started by dexter in /Users/dexter/TravelFxConvert/TravelFxConvertRestful)
+21/Dec/2016 22:45:06,132- App: No active profile set, falling back to default profiles: default
+21/Dec/2016 22:45:06,218- Version: HV000001: Hibernate Validator 5.2.4.Final
+21/Dec/2016 22:45:06,250- AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b15f922: startup date [Wed Dec 21 22:45:06 HKT 2016]; root of context hierarchy
+21/Dec/2016 22:45:06,452- FxRateUpdaterThread: timestamp:Wed Dec 21 22:45:06 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.382497
-USDJPY:118.101997
-USDGBP:0.81095
-USDNZD:1.4516
-USDTHB:36.009998
-USDSGD:1.44753
-USDTWD:32.064999
-USDCAD:1.34101
-USDCHF:1.03173
-USDMYR:4.477985
-USDHKD:7.7662
-USDCNY:6.946904
-USDEUR:0.965102
-USDKRW:1192.319946
-USDINR:68.069913
+USDAUD:1.374597
+USDJPY:117.262994
+USDGBP:0.80833
+USDNZD:1.442702
+USDTHB:35.959999
+USDSGD:1.44328
+USDTWD:31.993014
+USDCAD:1.33716
+USDCHF:1.02376
+USDMYR:4.476984
+USDHKD:7.760699
+USDCNY:6.939031
+USDEUR:0.957597
+USDKRW:1191.349976
+USDINR:67.787003
 
-20/Dec/2016 21:49:25,581- TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8080 (http)
-20/Dec/2016 21:49:25,614- StandardService: Starting service Tomcat
-20/Dec/2016 21:49:25,617- StandardEngine: Starting Servlet Engine: Apache Tomcat/8.5.4
-20/Dec/2016 21:49:25,789- [/]: Initializing Spring embedded WebApplicationContext
-20/Dec/2016 21:49:25,789- ContextLoader: Root WebApplicationContext: initialization completed in 2862 ms
-20/Dec/2016 21:49:26,035- ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
-20/Dec/2016 21:49:26,044- FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
-20/Dec/2016 21:49:26,045- FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-20/Dec/2016 21:49:26,045- FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
-20/Dec/2016 21:49:26,045- FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
-20/Dec/2016 21:49:26,666- RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@221dad51: startup date [Tue Dec 20 21:49:22 HKT 2016]; root of context hierarchy
-20/Dec/2016 21:49:26,814- RequestMappingHandlerMapping: Mapped "{[/greeting2]}" onto public TravelFxConvert.TravelFxConvertRestful.hello.Greeting TravelFxConvert.TravelFxConvertRestful.FxRestfulController.greeting(java.lang.String)
-20/Dec/2016 21:49:26,815- RequestMappingHandlerMapping: Mapped "{[/allfx]}" onto public java.util.Map<java.lang.String, java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.allFxRates(java.lang.String)
-20/Dec/2016 21:49:26,815- RequestMappingHandlerMapping: Mapped "{[/quotefxpair],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.quoteFxPair(TravelFxConvert.TravelFxConvertRestful.Model.FxQuotePair)
-20/Dec/2016 21:49:26,815- RequestMappingHandlerMapping: Mapped "{[/],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepage()
-20/Dec/2016 21:49:26,816- RequestMappingHandlerMapping: Mapped "{[/vue],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepageVue()
-20/Dec/2016 21:49:26,816- RequestMappingHandlerMapping: Mapped "{[/vue2],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepageVue2()
-20/Dec/2016 21:49:26,818- RequestMappingHandlerMapping: Mapped "{[/api/events],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<TravelFxConvert.TravelFxConvertRestful.WebService.Event>> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.getEvents()
-20/Dec/2016 21:49:26,818- RequestMappingHandlerMapping: Mapped "{[/api/events],methods=[POST]}" onto public org.springframework.http.ResponseEntity<TravelFxConvert.TravelFxConvertRestful.WebService.Event> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.postEvent(TravelFxConvert.TravelFxConvertRestful.WebService.Event)
-20/Dec/2016 21:49:26,818- RequestMappingHandlerMapping: Mapped "{[/api/events/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<TravelFxConvert.TravelFxConvertRestful.WebService.Event> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.deleteEvent(java.lang.String)
-20/Dec/2016 21:49:26,821- RequestMappingHandlerMapping: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-20/Dec/2016 21:49:26,821- RequestMappingHandlerMapping: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-20/Dec/2016 21:49:26,863- SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-20/Dec/2016 21:49:26,863- SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-20/Dec/2016 21:49:26,928- SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-20/Dec/2016 21:49:27,305- AnnotationMBeanExporter: Registering beans for JMX exposure on startup
-20/Dec/2016 21:49:27,329- Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
-20/Dec/2016 21:49:27,347- Http11NioProtocol: Starting ProtocolHandler [http-nio-8080]
-20/Dec/2016 21:49:27,386- NioSelectorPool: Using a shared selector for servlet write/read
-20/Dec/2016 21:49:27,421- TomcatEmbeddedServletContainer: Tomcat started on port(s): 8080 (http)
-20/Dec/2016 21:49:27,427- App: Started App in 5.099 seconds (JVM running for 9.683)
-20/Dec/2016 21:54:04,491- [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
-20/Dec/2016 21:54:04,492- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
-20/Dec/2016 21:54:04,522- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
-20/Dec/2016 22:20:03,199- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@33fe57a9: startup date [Tue Dec 20 22:20:03 HKT 2016]; root of context hierarchy
-20/Dec/2016 22:20:03,263- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-20/Dec/2016 22:20:03,365- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-20/Dec/2016 22:20:04,191- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-20/Dec/2016 22:20:04,205- FxRateUpdaterThread: Running refresh
-20/Dec/2016 22:20:04,676- App: Starting App on Dexters-Air with PID 748 (/Users/dexter/TravelFxConvert/TravelFxConvertRestful/target/classes started by dexter in /Users/dexter/TravelFxConvert/TravelFxConvertRestful)
-20/Dec/2016 22:20:04,677- App: No active profile set, falling back to default profiles: default
-20/Dec/2016 22:20:04,772- AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30e6a763: startup date [Tue Dec 20 22:20:04 HKT 2016]; root of context hierarchy
-20/Dec/2016 22:20:04,871- Version: HV000001: Hibernate Validator 5.2.4.Final
-20/Dec/2016 22:20:05,107- FxRateUpdaterThread: timestamp:Tue Dec 20 22:20:05 HKT 2016
+21/Dec/2016 22:45:09,097- TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8080 (http)
+21/Dec/2016 22:45:09,136- StandardService: Starting service Tomcat
+21/Dec/2016 22:45:09,141- StandardEngine: Starting Servlet Engine: Apache Tomcat/8.5.4
+21/Dec/2016 22:45:09,352- [/]: Initializing Spring embedded WebApplicationContext
+21/Dec/2016 22:45:09,352- ContextLoader: Root WebApplicationContext: initialization completed in 3102 ms
+21/Dec/2016 22:45:09,650- ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
+21/Dec/2016 22:45:09,661- FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
+21/Dec/2016 22:45:09,661- FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21/Dec/2016 22:45:09,661- FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21/Dec/2016 22:45:09,662- FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
+21/Dec/2016 22:45:10,428- RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b15f922: startup date [Wed Dec 21 22:45:06 HKT 2016]; root of context hierarchy
+21/Dec/2016 22:45:10,613- RequestMappingHandlerMapping: Mapped "{[/allfx]}" onto public java.util.Map<java.lang.String, java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.allFxRates(java.lang.String)
+21/Dec/2016 22:45:10,614- RequestMappingHandlerMapping: Mapped "{[/greeting2]}" onto public TravelFxConvert.TravelFxConvertRestful.hello.Greeting TravelFxConvert.TravelFxConvertRestful.FxRestfulController.greeting(java.lang.String)
+21/Dec/2016 22:45:10,615- RequestMappingHandlerMapping: Mapped "{[/quotefxpair],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.quoteFxPair(TravelFxConvert.TravelFxConvertRestful.Model.FxQuotePair)
+21/Dec/2016 22:45:10,615- RequestMappingHandlerMapping: Mapped "{[/allccyset]}" onto public java.util.Set<java.lang.String> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.getQuoteCcySet()
+21/Dec/2016 22:45:10,617- RequestMappingHandlerMapping: Mapped "{[/],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepage()
+21/Dec/2016 22:45:10,617- RequestMappingHandlerMapping: Mapped "{[/vue],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepageVue()
+21/Dec/2016 22:45:10,617- RequestMappingHandlerMapping: Mapped "{[/vue2],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepageVue2()
+21/Dec/2016 22:45:10,618- RequestMappingHandlerMapping: Mapped "{[/api/events],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<TravelFxConvert.TravelFxConvertRestful.WebService.Event>> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.getEvents()
+21/Dec/2016 22:45:10,619- RequestMappingHandlerMapping: Mapped "{[/api/events],methods=[POST]}" onto public org.springframework.http.ResponseEntity<TravelFxConvert.TravelFxConvertRestful.WebService.Event> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.postEvent(TravelFxConvert.TravelFxConvertRestful.WebService.Event)
+21/Dec/2016 22:45:10,619- RequestMappingHandlerMapping: Mapped "{[/api/events/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<TravelFxConvert.TravelFxConvertRestful.WebService.Event> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.deleteEvent(java.lang.String)
+21/Dec/2016 22:45:10,623- RequestMappingHandlerMapping: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21/Dec/2016 22:45:10,623- RequestMappingHandlerMapping: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21/Dec/2016 22:45:10,680- SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21/Dec/2016 22:45:10,680- SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21/Dec/2016 22:45:10,753- SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21/Dec/2016 22:45:11,201- AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+21/Dec/2016 22:45:11,223- Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+21/Dec/2016 22:45:11,240- Http11NioProtocol: Starting ProtocolHandler [http-nio-8080]
+21/Dec/2016 22:45:11,275- NioSelectorPool: Using a shared selector for servlet write/read
+21/Dec/2016 22:45:11,312- TomcatEmbeddedServletContainer: Tomcat started on port(s): 8080 (http)
+21/Dec/2016 22:45:11,320- App: Started App in 5.8 seconds (JVM running for 10.406)
+21/Dec/2016 22:45:21,423- [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+21/Dec/2016 22:45:21,424- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
+21/Dec/2016 22:45:21,454- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+21/Dec/2016 22:59:23,492- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@367ffa75: startup date [Wed Dec 21 22:59:23 HKT 2016]; root of context hierarchy
+21/Dec/2016 22:59:23,544- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
+21/Dec/2016 22:59:23,651- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
+21/Dec/2016 22:59:24,416- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
+21/Dec/2016 22:59:24,431- FxRateUpdaterThread: Running refresh
+21/Dec/2016 22:59:24,875- App: Starting App on Dexters-Air with PID 669 (/Users/dexter/TravelFxConvert/TravelFxConvertRestful/target/classes started by dexter in /Users/dexter/TravelFxConvert/TravelFxConvertRestful)
+21/Dec/2016 22:59:24,876- App: No active profile set, falling back to default profiles: default
+21/Dec/2016 22:59:24,944- AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@758a34ce: startup date [Wed Dec 21 22:59:24 HKT 2016]; root of context hierarchy
+21/Dec/2016 22:59:24,973- Version: HV000001: Hibernate Validator 5.2.4.Final
+21/Dec/2016 22:59:25,021- FxRateUpdaterThread: timestamp:Wed Dec 21 22:59:25 HKT 2016
 BASECCY:USD
 Quote:
-USDAUD:1.382497
-USDJPY:118.101997
-USDGBP:0.81095
-USDNZD:1.4516
-USDTHB:36.009998
-USDSGD:1.44753
-USDTWD:32.064999
-USDCAD:1.34101
-USDCHF:1.03173
-USDMYR:4.477985
-USDHKD:7.7662
-USDCNY:6.946904
-USDEUR:0.965102
-USDKRW:1192.319946
-USDINR:68.069913
+USDAUD:1.374597
+USDJPY:117.262994
+USDGBP:0.80833
+USDNZD:1.442702
+USDTHB:35.959999
+USDSGD:1.44328
+USDTWD:31.993014
+USDCAD:1.33716
+USDCHF:1.02376
+USDMYR:4.476984
+USDHKD:7.760699
+USDCNY:6.939031
+USDEUR:0.957597
+USDKRW:1191.349976
+USDINR:67.787003
 
-20/Dec/2016 22:20:06,985- TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8080 (http)
-20/Dec/2016 22:20:07,006- StandardService: Starting service Tomcat
-20/Dec/2016 22:20:07,009- StandardEngine: Starting Servlet Engine: Apache Tomcat/8.5.4
-20/Dec/2016 22:20:07,157- [/]: Initializing Spring embedded WebApplicationContext
-20/Dec/2016 22:20:07,158- ContextLoader: Root WebApplicationContext: initialization completed in 2386 ms
-20/Dec/2016 22:20:07,444- ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
-20/Dec/2016 22:20:07,450- FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
-20/Dec/2016 22:20:07,450- FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-20/Dec/2016 22:20:07,450- FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
-20/Dec/2016 22:20:07,451- FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
-20/Dec/2016 22:20:08,088- RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30e6a763: startup date [Tue Dec 20 22:20:04 HKT 2016]; root of context hierarchy
-20/Dec/2016 22:20:08,211- RequestMappingHandlerMapping: Mapped "{[/greeting2]}" onto public TravelFxConvert.TravelFxConvertRestful.hello.Greeting TravelFxConvert.TravelFxConvertRestful.FxRestfulController.greeting(java.lang.String)
-20/Dec/2016 22:20:08,212- RequestMappingHandlerMapping: Mapped "{[/allfx]}" onto public java.util.Map<java.lang.String, java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.allFxRates(java.lang.String)
-20/Dec/2016 22:20:08,213- RequestMappingHandlerMapping: Mapped "{[/quotefxpair],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.quoteFxPair(TravelFxConvert.TravelFxConvertRestful.Model.FxQuotePair)
-20/Dec/2016 22:20:08,214- RequestMappingHandlerMapping: Mapped "{[/],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepage()
-20/Dec/2016 22:20:08,214- RequestMappingHandlerMapping: Mapped "{[/vue],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepageVue()
-20/Dec/2016 22:20:08,214- RequestMappingHandlerMapping: Mapped "{[/vue2],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepageVue2()
-20/Dec/2016 22:20:08,216- RequestMappingHandlerMapping: Mapped "{[/api/events],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<TravelFxConvert.TravelFxConvertRestful.WebService.Event>> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.getEvents()
-20/Dec/2016 22:20:08,216- RequestMappingHandlerMapping: Mapped "{[/api/events],methods=[POST]}" onto public org.springframework.http.ResponseEntity<TravelFxConvert.TravelFxConvertRestful.WebService.Event> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.postEvent(TravelFxConvert.TravelFxConvertRestful.WebService.Event)
-20/Dec/2016 22:20:08,217- RequestMappingHandlerMapping: Mapped "{[/api/events/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<TravelFxConvert.TravelFxConvertRestful.WebService.Event> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.deleteEvent(java.lang.String)
-20/Dec/2016 22:20:08,222- RequestMappingHandlerMapping: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-20/Dec/2016 22:20:08,223- RequestMappingHandlerMapping: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-20/Dec/2016 22:20:08,288- SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-20/Dec/2016 22:20:08,288- SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-20/Dec/2016 22:20:08,356- SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-20/Dec/2016 22:20:08,713- AnnotationMBeanExporter: Registering beans for JMX exposure on startup
-20/Dec/2016 22:20:08,735- Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
-20/Dec/2016 22:20:08,753- Http11NioProtocol: Starting ProtocolHandler [http-nio-8080]
-20/Dec/2016 22:20:08,783- NioSelectorPool: Using a shared selector for servlet write/read
-20/Dec/2016 22:20:08,821- TomcatEmbeddedServletContainer: Tomcat started on port(s): 8080 (http)
-20/Dec/2016 22:20:08,826- App: Started App in 4.562 seconds (JVM running for 7.334)
-20/Dec/2016 22:20:11,200- [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
-20/Dec/2016 22:20:11,200- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
-20/Dec/2016 22:20:11,224- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
-20/Dec/2016 22:50:50,157- ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@33fe57a9: startup date [Tue Dec 20 22:50:50 HKT 2016]; root of context hierarchy
-20/Dec/2016 22:50:50,205- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [SpringBeanConfig.xml]
-20/Dec/2016 22:50:50,312- XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [FxRefresherConfig.xml]
-20/Dec/2016 22:50:51,145- ThreadPoolTaskExecutor: Initializing ExecutorService  'taskExecutor'
-20/Dec/2016 22:50:51,167- FxRateUpdaterThread: Running refresh
-20/Dec/2016 22:50:51,624- App: Starting App on Dexters-Air with PID 804 (/Users/dexter/TravelFxConvert/TravelFxConvertRestful/target/classes started by dexter in /Users/dexter/TravelFxConvert/TravelFxConvertRestful)
-20/Dec/2016 22:50:51,624- App: No active profile set, falling back to default profiles: default
-20/Dec/2016 22:50:51,713- AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3f93e4a8: startup date [Tue Dec 20 22:50:51 HKT 2016]; root of context hierarchy
-20/Dec/2016 22:50:51,814- Version: HV000001: Hibernate Validator 5.2.4.Final
-20/Dec/2016 22:50:51,971- FxRateUpdaterThread: timestamp:Tue Dec 20 22:50:51 HKT 2016
-BASECCY:USD
-Quote:
-USDAUD:1.3829
-USDJPY:118.120003
-USDGBP:0.81163
-USDNZD:1.451299
-USDTHB:36.009998
-USDSGD:1.44742
-USDTWD:32.06898
-USDCAD:1.339903
-USDCHF:1.03113
-USDMYR:4.477967
-USDHKD:7.76616
-USDCNY:6.946901
-USDEUR:0.964401
-USDKRW:1193.109985
-USDINR:68.072998
-
-20/Dec/2016 22:50:54,012- TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8080 (http)
-20/Dec/2016 22:50:54,035- StandardService: Starting service Tomcat
-20/Dec/2016 22:50:54,038- StandardEngine: Starting Servlet Engine: Apache Tomcat/8.5.4
-20/Dec/2016 22:50:54,183- [/]: Initializing Spring embedded WebApplicationContext
-20/Dec/2016 22:50:54,183- ContextLoader: Root WebApplicationContext: initialization completed in 2470 ms
-20/Dec/2016 22:50:54,455- ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
-20/Dec/2016 22:50:54,462- FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
-20/Dec/2016 22:50:54,462- FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-20/Dec/2016 22:50:54,463- FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
-20/Dec/2016 22:50:54,463- FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
-20/Dec/2016 22:50:55,118- RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3f93e4a8: startup date [Tue Dec 20 22:50:51 HKT 2016]; root of context hierarchy
-20/Dec/2016 22:50:55,245- RequestMappingHandlerMapping: Mapped "{[/greeting2]}" onto public TravelFxConvert.TravelFxConvertRestful.hello.Greeting TravelFxConvert.TravelFxConvertRestful.FxRestfulController.greeting(java.lang.String)
-20/Dec/2016 22:50:55,246- RequestMappingHandlerMapping: Mapped "{[/allfx]}" onto public java.util.Map<java.lang.String, java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.allFxRates(java.lang.String)
-20/Dec/2016 22:50:55,247- RequestMappingHandlerMapping: Mapped "{[/quotefxpair],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.quoteFxPair(TravelFxConvert.TravelFxConvertRestful.Model.FxQuotePair)
-20/Dec/2016 22:50:55,248- RequestMappingHandlerMapping: Mapped "{[/],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepage()
-20/Dec/2016 22:50:55,248- RequestMappingHandlerMapping: Mapped "{[/vue],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepageVue()
-20/Dec/2016 22:50:55,248- RequestMappingHandlerMapping: Mapped "{[/vue2],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepageVue2()
-20/Dec/2016 22:50:55,249- RequestMappingHandlerMapping: Mapped "{[/api/events],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<TravelFxConvert.TravelFxConvertRestful.WebService.Event>> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.getEvents()
-20/Dec/2016 22:50:55,250- RequestMappingHandlerMapping: Mapped "{[/api/events],methods=[POST]}" onto public org.springframework.http.ResponseEntity<TravelFxConvert.TravelFxConvertRestful.WebService.Event> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.postEvent(TravelFxConvert.TravelFxConvertRestful.WebService.Event)
-20/Dec/2016 22:50:55,250- RequestMappingHandlerMapping: Mapped "{[/api/events/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<TravelFxConvert.TravelFxConvertRestful.WebService.Event> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.deleteEvent(java.lang.String)
-20/Dec/2016 22:50:55,255- RequestMappingHandlerMapping: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-20/Dec/2016 22:50:55,256- RequestMappingHandlerMapping: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-20/Dec/2016 22:50:55,309- SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-20/Dec/2016 22:50:55,309- SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-20/Dec/2016 22:50:55,373- SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-20/Dec/2016 22:50:55,887- AnnotationMBeanExporter: Registering beans for JMX exposure on startup
-20/Dec/2016 22:50:55,908- Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
-20/Dec/2016 22:50:55,924- Http11NioProtocol: Starting ProtocolHandler [http-nio-8080]
-20/Dec/2016 22:50:55,951- NioSelectorPool: Using a shared selector for servlet write/read
-20/Dec/2016 22:50:56,001- TomcatEmbeddedServletContainer: Tomcat started on port(s): 8080 (http)
-20/Dec/2016 22:50:56,008- App: Started App in 4.765 seconds (JVM running for 7.698)
-20/Dec/2016 22:50:58,224- [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
-20/Dec/2016 22:50:58,224- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
-20/Dec/2016 22:50:58,250- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
-20/Dec/2016 22:51:18,520- FxRateUpdaterThread: Request Quote AUD/HKD
+21/Dec/2016 22:59:26,800- TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8080 (http)
+21/Dec/2016 22:59:26,818- StandardService: Starting service Tomcat
+21/Dec/2016 22:59:26,820- StandardEngine: Starting Servlet Engine: Apache Tomcat/8.5.4
+21/Dec/2016 22:59:26,947- [/]: Initializing Spring embedded WebApplicationContext
+21/Dec/2016 22:59:26,947- ContextLoader: Root WebApplicationContext: initialization completed in 2003 ms
+21/Dec/2016 22:59:27,175- ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
+21/Dec/2016 22:59:27,179- FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
+21/Dec/2016 22:59:27,179- FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21/Dec/2016 22:59:27,179- FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21/Dec/2016 22:59:27,179- FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
+21/Dec/2016 22:59:27,669- RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@758a34ce: startup date [Wed Dec 21 22:59:24 HKT 2016]; root of context hierarchy
+21/Dec/2016 22:59:27,843- RequestMappingHandlerMapping: Mapped "{[/greeting2]}" onto public TravelFxConvert.TravelFxConvertRestful.hello.Greeting TravelFxConvert.TravelFxConvertRestful.FxRestfulController.greeting(java.lang.String)
+21/Dec/2016 22:59:27,845- RequestMappingHandlerMapping: Mapped "{[/allfx]}" onto public java.util.Map<java.lang.String, java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.allFxRates(java.lang.String)
+21/Dec/2016 22:59:27,846- RequestMappingHandlerMapping: Mapped "{[/quotefxpair],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Double> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.quoteFxPair(TravelFxConvert.TravelFxConvertRestful.Model.FxQuotePair)
+21/Dec/2016 22:59:27,846- RequestMappingHandlerMapping: Mapped "{[/allccyset]}" onto public java.util.Set<java.lang.String> TravelFxConvert.TravelFxConvertRestful.FxRestfulController.getQuoteCcySet()
+21/Dec/2016 22:59:27,847- RequestMappingHandlerMapping: Mapped "{[/],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepage()
+21/Dec/2016 22:59:27,848- RequestMappingHandlerMapping: Mapped "{[/vue],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepageVue()
+21/Dec/2016 22:59:27,848- RequestMappingHandlerMapping: Mapped "{[/vue2],methods=[GET]}" onto public java.lang.String TravelFxConvert.TravelFxConvertRestful.JS.MainController.homepageVue2()
+21/Dec/2016 22:59:27,851- RequestMappingHandlerMapping: Mapped "{[/api/events],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<TravelFxConvert.TravelFxConvertRestful.WebService.Event>> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.getEvents()
+21/Dec/2016 22:59:27,852- RequestMappingHandlerMapping: Mapped "{[/api/events],methods=[POST]}" onto public org.springframework.http.ResponseEntity<TravelFxConvert.TravelFxConvertRestful.WebService.Event> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.postEvent(TravelFxConvert.TravelFxConvertRestful.WebService.Event)
+21/Dec/2016 22:59:27,852- RequestMappingHandlerMapping: Mapped "{[/api/events/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<TravelFxConvert.TravelFxConvertRestful.WebService.Event> TravelFxConvert.TravelFxConvertRestful.WebService.DemoWebService.deleteEvent(java.lang.String)
+21/Dec/2016 22:59:27,860- RequestMappingHandlerMapping: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21/Dec/2016 22:59:27,860- RequestMappingHandlerMapping: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21/Dec/2016 22:59:27,940- SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21/Dec/2016 22:59:27,940- SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21/Dec/2016 22:59:28,039- SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21/Dec/2016 22:59:28,370- AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+21/Dec/2016 22:59:28,390- Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+21/Dec/2016 22:59:28,414- Http11NioProtocol: Starting ProtocolHandler [http-nio-8080]
+21/Dec/2016 22:59:28,456- NioSelectorPool: Using a shared selector for servlet write/read
+21/Dec/2016 22:59:28,485- TomcatEmbeddedServletContainer: Tomcat started on port(s): 8080 (http)
+21/Dec/2016 22:59:28,493- App: Started App in 4.005 seconds (JVM running for 6.773)
+21/Dec/2016 22:59:33,389- [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+21/Dec/2016 22:59:33,389- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
+21/Dec/2016 22:59:33,409- DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+21/Dec/2016 22:59:39,600- FxRateUpdaterThread: Request Quote USD/JPY
+21/Dec/2016 23:00:40,064- FxRateUpdaterThread: Request Quote USD/JPY
+21/Dec/2016 23:01:12,744- FxRateUpdaterThread: Request Quote USD/JPY
+21/Dec/2016 23:02:08,494- FxRateUpdaterThread: Request Quote USD/JPY
+21/Dec/2016 23:02:57,043- FxRateUpdaterThread: Request Quote USD/JPY
+21/Dec/2016 23:03:03,002- FxRateUpdaterThread: Request Quote AUD/JPY
+21/Dec/2016 23:03:09,039- FxRateUpdaterThread: Request Quote HKD/JPY
+21/Dec/2016 23:03:16,516- FxRateUpdaterThread: Request Quote HKD/JPY
+21/Dec/2016 23:03:26,695- FxRateUpdaterThread: Request Quote EUR/JPY
+21/Dec/2016 23:03:30,884- AnnotationConfigEmbeddedWebApplicationContext: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@758a34ce: startup date [Wed Dec 21 22:59:24 HKT 2016]; root of context hierarchy
+21/Dec/2016 23:03:30,886- AnnotationMBeanExporter: Unregistering JMX-exposed beans on shutdown

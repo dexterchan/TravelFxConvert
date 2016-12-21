@@ -22,6 +22,7 @@ import TravelFxConvert.Daemon.FxRateUpdaterThread;
 public class App 
 {
 	final static Logger logger = LogManager.getLogger(App.class);
+	public static FxRateUpdaterThread FxUpdateThread=null;
 	//private static final Logger logger= Logger.getLogger(App.class);
     public static void main( String[] args ) throws Exception
 	{
@@ -32,9 +33,9 @@ public class App
 		ApplicationContext context = new ClassPathXmlApplicationContext("SpringBeanConfig.xml");
 		ThreadPoolTaskExecutor taskExecutor = (ThreadPoolTaskExecutor) context.getBean("taskExecutor");
 		
-		FxRateUpdaterThread Fxtask = (FxRateUpdaterThread) context.getBean("ApiLayerFxUpdateThread");
+		FxUpdateThread = (FxRateUpdaterThread) context.getBean("ApiLayerFxUpdateThread");
 
-		taskExecutor.execute(Fxtask);
+		taskExecutor.execute(FxUpdateThread);
 		//Thread.currentThread().sleep(5000);
 		SpringApplication.run(App.class, args);
 	}

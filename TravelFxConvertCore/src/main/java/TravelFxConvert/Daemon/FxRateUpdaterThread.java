@@ -25,6 +25,11 @@ public class FxRateUpdaterThread implements Runnable
 	private final AtomicLong refreshcounter = new AtomicLong();
 	
 	
+	public Set<String> getCcySet() {
+		return ccySet;
+	}
+
+
 	public void setRefreshInterface(FxRateRefresherInterface refreshInterface) {
 		this.refreshInterface = refreshInterface;
 	}

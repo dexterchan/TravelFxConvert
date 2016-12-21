@@ -2,6 +2,7 @@ package TravelFxConvert.TravelFxConvertRestful;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.apache.logging.log4j.LogManager;
@@ -51,6 +52,11 @@ public class FxRestfulController {
 		
 		
 		return new ResponseEntity<Double> (d,HttpStatus.OK);
+    }
+	
+	@RequestMapping("/allccyset")
+    public Set<String>  getQuoteCcySet() {
+		return App.FxUpdateThread.getCcySet();
     }
 	
 }
