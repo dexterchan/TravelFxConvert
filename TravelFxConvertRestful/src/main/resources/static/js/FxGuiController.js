@@ -11,7 +11,7 @@ var fxQuote = new Vue({
 	  },
 	  methods: {
 		  quoteFX: function () {
-		      this.message = 1.00;
+		      this.message = "Please Wait...";
 		      this.quote.ccy1 = this.quote.ccy1.toUpperCase().trim();
 		      this.quote.ccy2 = this.quote.ccy2.toUpperCase().trim();
 		      if(this.quote.ccy1 && this.quote.ccy2){
