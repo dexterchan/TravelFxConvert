@@ -49,14 +49,24 @@
 						</h3>
 				</div>
 				<div class="panel-body">
-					
-						<div class="col-sm-5">
+
+					<div class="col-sm-5">
+					<!-- 
 						<input class="form-control" placeholder="Currency1"
-							v-model="quote.ccy1">
-						</div>
-						<div class="col-sm-5">
+							v-model="quote.ccy1">  -->
+							<select class="form-control"
+							placeholder="Currency1" v-model="quote.ccy1"  >
+							<option v-for="ccy in ccyset" > {{ ccy }}</option>
+						</select>
+					</div>
+					<div class="col-sm-5">
+					<!-- 
 						<input class="form-control" placeholder="Currency2"
-							v-model="quote.ccy2">
+							v-model="quote.ccy2">  -->
+						<select class="form-control"
+							placeholder="Currency2" v-model="quote.ccy2"  >
+							<option v-for="ccy in ccyset" > {{ ccy }}</option>
+						</select>
 						</div>
 						<p>
 						
