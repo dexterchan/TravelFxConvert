@@ -5,10 +5,13 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import TravelFxConvert.Daemon.FxRateUpdaterThread;
 import TravelFxConvert.Model.FXRateContainer;
 import TravelFxConvert.Model.FxDAG;
+import TravelFxConvert.TravelFxConvertRestful.Model.FxQuoteException;
 import TravelFxConvert.TravelFxConvertRestful.Model.FxQuotePair;
 import TravelFxConvert.TravelFxConvertRestful.hello.Greeting;
 
@@ -43,16 +47,30 @@ public class FxRestfulController {
     }
 	
 	@RequestMapping(value="/quotefxpair", method = RequestMethod.POST)
-    public ResponseEntity <  Double > quoteFxPair(@RequestBody  FxQuotePair fxPair) {
+    public ResponseEntity <  Double > quoteFxPair(@RequestBody  FxQuotePair fxPair) throws FxQuoteException{
 		double d = 0;
 		log.info("Request Quote "+fxPair.ccy1+"/"+fxPair.ccy2);
 		FxDAG fxDAG = FXRateContainer.getFxDAG();
 		
+		try{
 		d = fxDAG.getFxRate(fxPair.ccy1, fxPair.ccy2);
-		
-		
+		}catch (Exception e){
+			throw new FxQuoteException(fxPair.ccy1,fxPair.ccy2,"not found:"+e.getMessage());
+		}
 		return new ResponseEntity<Double> (d,HttpStatus.OK);
     }
+	
+	@ExceptionHandler(FxQuoteException.class)
+	public ResponseEntity<FxQuoteException> rulesForCustomerNotFound(HttpServletRequest req, Exception e) 
+	{
+		FxQuoteException fe=null;
+		if(e instanceof FxQuoteException){
+			fe=(FxQuoteException)e;
+		}else{
+			fe = new FxQuoteException("Quotation problem");
+		}
+		return new ResponseEntity<FxQuoteException>(fe, HttpStatus.NOT_FOUND);
+	}
 	
 	@RequestMapping("/allccyset")
     public Set<String>  getQuoteCcySet() {
