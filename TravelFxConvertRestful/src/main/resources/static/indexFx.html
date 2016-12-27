@@ -45,9 +45,12 @@
 					<button class="btn btn-primary" v-on:click="fetchEvents">refresh</button>
 					 -->
 					 <h3>
-						<span class="label label-info">{{quote.ccy1}}/{{quote.ccy2}}  {{message}}</span>
+					 
+						<span class="label label-info" >{{quote.ccy1}}/{{quote.ccy2}}  {{message}}</span>
 						</h3>
-						<span id='errorMsg'>{{errorMessage}}</span>
+						<div class="alert alert-warning" id='errorMsg' v-if="errorMessage.length>0" >
+					 	{{errorMessage}}
+					 	</div>
 				</div>
 				<div class="panel-body">
 
@@ -100,7 +103,7 @@
 
 </body>
  
-<script src="/webjars/vue/2.0.1/dist/vue.min.js"></script> -->
+<script src="/webjars/vue/2.0.1/dist/vue.min.js"></script>
 <script src="/webjars/vue-resource/0.9.3/vue-resource.min.js"></script>
 
 <!-- 

@@ -45,6 +45,7 @@ var fxQuote = new Vue({
 						},
 						(response) => {
 							//$("#errorMsg").show();
+							
 							if(response.status==500){
 								this.message="Service error";
 								this.errorMessage=response.json().message;
@@ -86,6 +87,7 @@ var fxQuote = new Vue({
 		},
 		clearMessage:function(){
 			this.errorMessage="";
+			this.message="";
 			//$("#errorMsg").hide();
 			
 		}
