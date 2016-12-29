@@ -18,6 +18,15 @@ var fxQuote = new Vue({
 		this.clearMessage();
 		this.fetchEvents();
 	},
+	computed: {
+	    // a computed getter
+	    presentFXRate: function () {
+	      // `this` points to the vm instance
+	    	if(this.quote.ccy1!=undefined &&  this.quote.ccy2!=undefined){
+	    		return this.quote.ccy1+ "/" + this.quote.ccy2 + " "+this.message;
+	    	}
+	    }
+	},
 	methods : {
 		quoteFX : function() {
 			this.clearMessage();

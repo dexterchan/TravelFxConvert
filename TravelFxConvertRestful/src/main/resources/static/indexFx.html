@@ -46,7 +46,10 @@
 					 -->
 					 <h3>
 					 
-						<span class="label label-info" >{{quote.ccy1}}/{{quote.ccy2}}  {{message}}</span>
+						<span class="label label-info" >
+						<!-- {{quote.ccy1}}/{{quote.ccy2}}  {{message}}-->
+						{{ presentFXRate }}
+						</span>
 						</h3>
 						<div class="alert alert-warning" id='errorMsg' v-if="errorMessage.length>0" >
 					 	{{errorMessage}}
