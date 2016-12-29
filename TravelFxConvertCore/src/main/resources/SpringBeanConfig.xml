@@ -30,6 +30,7 @@
 	<bean id="ApiLayerFxUpdateThread" class="TravelFxConvert.Daemon.FxRateUpdaterThread">
 	<property name="name" value="ApiLayerFxRefresher" />
 	 
+	<property name="defaultccy" value="USD"/>
 	<property name="milliSecond_period" value="3600000" />
 	 
 	<!--  <property name="milliSecond_period" value="2000" /> -->

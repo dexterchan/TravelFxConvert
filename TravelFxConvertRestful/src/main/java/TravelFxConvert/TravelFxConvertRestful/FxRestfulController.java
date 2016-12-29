@@ -3,6 +3,7 @@ package TravelFxConvert.TravelFxConvertRestful;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeSet;
 import java.util.concurrent.ConcurrentHashMap;
 
 import javax.servlet.http.HttpServletRequest;
@@ -74,7 +75,11 @@ public class FxRestfulController {
 	
 	@RequestMapping("/allccyset")
     public Set<String>  getQuoteCcySet() {
-		return App.FxUpdateThread.getCcySet();
+		Set<String> outputSet = new TreeSet<String>();
+		outputSet.addAll(App.FxUpdateThread.getCcySet());
+		outputSet.add(App.FxUpdateThread.getDefaultccy());
+		//App.FxUpdateThread.getCcySet().
+		return outputSet;
     }
 	
 }

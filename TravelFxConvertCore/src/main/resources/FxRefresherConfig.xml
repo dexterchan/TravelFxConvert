@@ -24,7 +24,7 @@
 		<!--  <property name="access_key" value="f690f9da3650c85aff3a94715e5b58de"/> -->
 		<property name="access_key" value="f801301a5b024aab25db476ed614a520"/>
 		<property name="format" value="1"/>
-		<property name="defaultBaseCcy" value="USD"/>
+		<!-- <property name="defaultBaseCcy" value="USD"/>  -->
 	</bean>
 	
 </beans>

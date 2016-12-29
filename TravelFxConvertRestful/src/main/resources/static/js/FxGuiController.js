@@ -11,22 +11,29 @@ var fxQuote = new Vue({
 			ccy2 : ''
 		},
 		ccyset:[],
-		errorMessage:''
+		errorMessage:'',
+		classObject: {
+		    alert: true,
+		    'alert-warning': true
+		  }
 	},
 	created : function() {
 		
 		this.clearMessage();
 		this.fetchEvents();
 	},
+	//Computed property is cached based on their dependency.
 	computed: {
 	    // a computed getter
 	    presentFXRate: function () {
 	      // `this` points to the vm instance
 	    	if(this.quote.ccy1!=undefined &&  this.quote.ccy2!=undefined){
-	    		return this.quote.ccy1+ "/" + this.quote.ccy2 + " "+this.message;
+	    		return this.quote.ccy1+ "/" + this.quote.ccy2 + "="+this.message;
 	    	}
 	    }
-	},
+	
+	}
+	,
 	methods : {
 		quoteFX : function() {
 			this.clearMessage();

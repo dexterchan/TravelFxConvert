@@ -22,9 +22,20 @@ public class FxRateUpdaterThread implements Runnable
 	boolean alive=true;
 	FxRateRefresherInterface refreshInterface=null;
 	Set<String> ccySet=null;
+	String defaultccy=null;
 	private final AtomicLong refreshcounter = new AtomicLong();
 	
 	
+	public String getDefaultccy() {
+		return defaultccy;
+	}
+
+
+	public void setDefaultccy(String defaultccy) {
+		this.defaultccy = defaultccy;
+	}
+
+
 	public Set<String> getCcySet() {
 		return ccySet;
 	}
@@ -64,7 +75,7 @@ public class FxRateUpdaterThread implements Runnable
 				ConcurrentHashMap<String, Double>  fxContainer=FXRateContainer.getExtFxRresher();
 				
 				
-				FXQuote q=refreshInterface.getFx(ccySet, null);
+				FXQuote q=refreshInterface.getFx(ccySet, this.defaultccy);
 				log.info(q.toString());
 				q.quote.forEach( (key,value) -> fxContainer.put(key, value) );
 				

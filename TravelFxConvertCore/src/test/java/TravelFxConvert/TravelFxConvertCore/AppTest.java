@@ -81,7 +81,7 @@ public class AppTest
         ccyLst.add("INR");
 		
         try{
-        	FXQuote q=refresher.getFx(ccyLst, null);
+        	FXQuote q=refresher.getFx(ccyLst, "USD");
         	FxDAG d = FXRateContainer.getFxDAG();
         	d.updateFxRate(q);
         	

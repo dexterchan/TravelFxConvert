@@ -40,7 +40,7 @@ public class TestRunner {
 	    	  
 	      }
 	      System.out.println("Number of test cases = " + result2.runCount());
-	      System.out.println(result2.wasSuccessful());
+	      System.out.println("All test cases ok:"+result2.wasSuccessful());
 	      
 	   
 	}

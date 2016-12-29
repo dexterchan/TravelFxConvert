@@ -31,18 +31,18 @@ public class ApiLayerFxRateRefresher implements FxRateRefresherInterface{
 	String serviceURL;
 	String access_key;
 	String format;
-	String defaultBaseCcy;
+	//String defaultBaseCcy;
 	
 	public ApiLayerFxRateRefresher () throws Exception{
 		cl =  RestfulClient.getInstance();
 	}
 
-	public String getDefaultBaseCcy() {
-		return defaultBaseCcy;
-	}
-	public void setDefaultBaseCcy(String defaultBaseCcy) {
-		this.defaultBaseCcy = defaultBaseCcy;
-	}
+//	public String getDefaultBaseCcy() {
+//		return defaultBaseCcy;
+//	}
+//	public void setDefaultBaseCcy(String defaultBaseCcy) {
+//		this.defaultBaseCcy = defaultBaseCcy;
+//	}
 	public String getServiceURL() {
 		return serviceURL;
 	}
@@ -76,12 +76,12 @@ public class ApiLayerFxRateRefresher implements FxRateRefresherInterface{
 		StringBuffer ccyString=new StringBuffer();
 		ccyLst.forEach(ccy -> ccyString.append(ccy+","));
 		InputMapArg.put("currencies", ccyString.substring(0, ccyString.length()-1));
-		if(baseCcy!=null && baseCcy.length()>0){
+		//if(baseCcy!=null && baseCcy.length()>0){
 			InputMapArg.put("source", baseCcy);
-		}else{
-			baseCcy=defaultBaseCcy;
-			InputMapArg.put("source", this.defaultBaseCcy);
-		}
+		//}else{
+		//	baseCcy=defaultBaseCcy;
+		//	InputMapArg.put("source", this.defaultBaseCcy);
+		//}
 		RestfulClient.ClientReturn ret=null;
 		ret=cl.connectServerByPara(this.serviceURL, InputMapArg, "GET", 1);
 		

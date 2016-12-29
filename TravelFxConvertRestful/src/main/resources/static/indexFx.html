@@ -51,7 +51,7 @@
 						{{ presentFXRate }}
 						</span>
 						</h3>
-						<div class="alert alert-warning" id='errorMsg' v-if="errorMessage.length>0" >
+						<div v-bind:class="classObject" id='errorMsg' v-if="errorMessage.length>0" >
 					 	{{errorMessage}}
 					 	</div>
 				</div>
