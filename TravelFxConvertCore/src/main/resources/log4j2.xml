@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="DEBUG">
+<Configuration status="info">
 	<Properties>
 		<Property name="log-path">logs</Property>
 	</Properties>
@@ -7,7 +7,7 @@
 		<RollingFile name="RollingFile" fileName="${log-path}/TravelFxConvertRestful.log"
 			filePattern="${log-path}/TravelFxConvertRestful-%d{yyyy-MM-dd}-%i.log">
 			<PatternLayout>
-				<pattern>%d{dd/MMM/yyyy HH:mm:ss,SSS}- %c{1}: %m%n</pattern>
+				<pattern>%level %d - %C{1}: %m %F %L %n</pattern>
 			</PatternLayout>
 			<Policies>
 				<TimeBasedTriggeringPolicy />

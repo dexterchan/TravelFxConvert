@@ -56,7 +56,13 @@ public class FxRestfulController {
 		try{
 		d = fxDAG.getFxRate(fxPair.ccy1, fxPair.ccy2);
 		}catch (Exception e){
-			throw new FxQuoteException(fxPair.ccy1,fxPair.ccy2,"not found:"+e.getMessage());
+			StringBuffer msg = new StringBuffer();
+			msg.append(fxPair.ccy1);
+			msg.append(fxPair.ccy2);
+			msg.append(" not found: ");
+			msg.append(e.getMessage());
+			log.error(msg.toString());
+			throw new FxQuoteException(msg.toString());
 		}
 		return new ResponseEntity<Double> (d,HttpStatus.OK);
     }
