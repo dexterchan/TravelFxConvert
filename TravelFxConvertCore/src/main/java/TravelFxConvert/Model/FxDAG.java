@@ -55,12 +55,14 @@ public class FxDAG extends SimpleDirectedWeightedGraph<String, FXDefaultWeighted
 		return ok;
 	}
 
-	public double getFxRate(String ccy1, String ccy2) {
+	public double getFxRate(String ccy1, String ccy2) throws Exception{
 		double qFxRate = 1.0;
 		//synchronized (this) 
 		{
 			DefaultEdge e;
-
+			if(ccy1.equals(ccy2)){
+				throw new Exception ("ccy1 and ccy2 should not be the same");
+			}
 			List<FXDefaultWeightedEdge> path = BellmanFordShortestPath.findPathBetween(this, ccy1, ccy2);
 			qFxRate = 0.0;
 			ListIterator i = path.listIterator();
