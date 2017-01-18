@@ -52,7 +52,8 @@
 			<value>EUR</value>
 			<value>KRW</value>
 			<value>INR</value>
-			
+			<value>IPR</value>
+			<value>UAE</value>
 		</set>
 	</property>
 	</bean>

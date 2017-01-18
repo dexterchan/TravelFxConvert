@@ -58,6 +58,7 @@ public class FxRestfulController {
 		}catch (Exception e){
 			StringBuffer msg = new StringBuffer();
 			msg.append(fxPair.ccy1);
+			msg.append("/");
 			msg.append(fxPair.ccy2);
 			msg.append(" not found: ");
 			msg.append(e.getMessage());
@@ -80,12 +81,12 @@ public class FxRestfulController {
 	}
 	
 	@RequestMapping("/allccyset")
-    public Set<String>  getQuoteCcySet() {
+    public ResponseEntity< Set<String> > getQuoteCcySet() {
 		Set<String> outputSet = new TreeSet<String>();
 		outputSet.addAll(App.FxUpdateThread.getCcySet());
 		outputSet.add(App.FxUpdateThread.getDefaultccy());
 		//App.FxUpdateThread.getCcySet().
-		return outputSet;
+		return new ResponseEntity< Set<String> > ( outputSet,HttpStatus.OK);
     }
 	
 }
