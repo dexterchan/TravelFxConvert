@@ -21,4 +21,9 @@ public class MainController {
     public String homepageVue2(){
         return "indexVue2.html";
     }
+    
+    @RequestMapping(value="/table",method = RequestMethod.GET)
+    public String homepageTable(){
+        return "indexTable.html";
+    }
 }

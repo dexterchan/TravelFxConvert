@@ -7,7 +7,7 @@
 		<RollingFile name="RollingFile" fileName="${log-path}/TravelFxConvertRestful.log"
 			filePattern="${log-path}/TravelFxConvertRestful-%d{yyyy-MM-dd}-%i.log">
 			<PatternLayout>
-				<pattern>%level %d - %C{1}: %m %F %L %n</pattern>
+				<pattern>%d %level - %C{1}: %m %F %L %n</pattern>
 			</PatternLayout>
 			<Policies>
 				<TimeBasedTriggeringPolicy />
