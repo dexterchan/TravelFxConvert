@@ -23,7 +23,7 @@ public class MainController {
     }
     
     @RequestMapping(value="/table",method = RequestMethod.GET)
-    public String homepageTable(){
-        return "indexTable.html";
+    public String hrhomepageTable(){
+        return "hrindexTable.html";
     }
 }

@@ -9,7 +9,11 @@ $(document).ready(function() {
 	var table = $('#example').DataTable( {
         "paging":   false,
         "ordering": true,
-        "info":     false
+        "info":     false,
+        "columnDefs": [
+            { className: "dt-right", "targets": [3,5] },
+            { className: "dt-nowrap", "targets": [0,1] }
+          ]
     } );
     
     $('#example tbody').on( 'click', 'tr', function () {

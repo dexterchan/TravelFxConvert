@@ -69,7 +69,7 @@ public class FxRestfulController {
     }
 	
 	@ExceptionHandler(FxQuoteException.class)
-	public ResponseEntity<FxQuoteException> rulesForCustomerNotFound(HttpServletRequest req, Exception e) 
+	public ResponseEntity<FxQuoteException> rulesForFxQuoteNotFound(HttpServletRequest req, Exception e) 
 	{
 		FxQuoteException fe=null;
 		if(e instanceof FxQuoteException){
